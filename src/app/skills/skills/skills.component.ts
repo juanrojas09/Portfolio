@@ -10,28 +10,55 @@ export class SkillsComponent {
   skills: Skill[] = [
     {
       name: 'Angular, Angular Material',
-      level: 'Expert',
-      rating: 85,
-    },
-    {
-      name: 'ASP.NET Core, EF Core',
-      level: 'Intermidiate',
-      rating: 70,
-    },
-    {
-      name: 'HTML, CSS, JS',
-      level: 'Expert',
-      rating: 90,
-    },
-    {
-      name: 'JAVA',
-      level: 'Expert',
+      level: 'Intermedio',
       rating: 80,
     },
     {
-      name: 'C++',
-      level: 'Intermidiate',
+      name: 'ASP.NET Core, EF Core,C#',
+      level: 'Avanzado',
+      rating: 85,
+    },
+    {
+      name: 'HTML, CSS, JS',
+      level: 'Intermedio',
       rating: 70,
     },
+    {
+      name: 'JAVA,Spring Boot',
+      level: 'Intermedio',
+      rating: 60,
+    },
+    {
+      name: 'C++',
+      level: 'Intermedio',
+      rating: 80,
+    },
+    {
+      name: 'SQL Server',
+      level: 'Intermedio',
+      rating: 70,
+
+    },
+    {
+      name: 'GIT',
+      level: 'Intermedio',
+      rating: 70,
+    },
+    {
+      name: 'Python',
+      level: 'Basico',
+      rating: 50,
+    },
+    {
+      name: 'Docker',
+      level: 'Basico',
+      rating: 50,
+    },
+    {
+      name: 'CI/CD',
+      level: 'Basico',
+      rating: 50,
+    },
+
   ];
 }

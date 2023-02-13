@@ -23,7 +23,7 @@ section ul {
 }
 
 /* PC */
-
+@media(min-width: 768px) {
 :host.pc section {
     margin-left: 5rem;
     position: relative;
@@ -33,7 +33,7 @@ section ul {
     color: white;
 }
 
-:host.pc section::before {
+:host section::before {
     content: '';
     position: absolute;
     width: 20px;
@@ -45,7 +45,7 @@ section ul {
     background-color: var(--green);
 }
 
-:host.pc section::after {
+:host section::after {
     content: '';
     position: absolute;
     width: 1px;
@@ -56,6 +56,7 @@ section ul {
     background-color: var(--gray-light);
 }
 
-:host.pc section:last-child:after {
+:host section:last-child:after {
     height: 100%;
+}
 }
