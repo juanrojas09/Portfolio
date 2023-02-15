@@ -35,6 +35,8 @@ ul {
 
 /* PC */
 @media(min-width: 768px) {
+
+    
 :host .container {
     display: grid;
     gap: 2rem;
